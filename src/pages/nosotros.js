@@ -23,8 +23,9 @@ function Nosotros(){
                     <div className="columns is-centered contenedor-nosotros">
                         <div className="column is-8 px-6 texto-nosotros">
                             <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary mt-5 mb-6 has-text-weight-bold">{t("about-us.title")}</h1>
-                            <p className="has-text-justified my-5"><b className="has-text-primary">Abonos Dominicanos</b> {t("about-us.text-1")}</p>
+                            <p className="has-text-justified my-5">{t("about-us.text-1")}</p>
                             <p className="has-text-justified my-5">{t("about-us.text-2")}</p>
+                            <p className="has-text-justified my-5">{t("about-us.text-3")}</p>
                         </div>
                     </div>
                 </div>
@@ -61,6 +62,7 @@ function Nosotros(){
                             <div>
                                 <div className="content">
                                     <ul>
+                                        <li><b className="has-text-primary is-uppercase">{t("about-us.value-subtitle-1")}</b>{t("about-us.value-text-1")}</li>
                                         <li><b className="has-text-primary is-uppercase">{t("about-us.value-subtitle-2")}</b>{t("about-us.value-text-2")}</li>
                                         <li><b className="has-text-primary is-uppercase">{t("about-us.value-subtitle-3")}</b>{t("about-us.value-text-3")}</li>
                                         <li><b className="has-text-primary is-uppercase">{t("about-us.value-subtitle-4")}</b>{t("about-us.value-text-4")}</li>

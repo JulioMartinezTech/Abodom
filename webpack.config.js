@@ -24,18 +24,20 @@ const imgMini = new ImageMinimizerPlugin({
           [
             'svgo',
             {
-              plugins: [
-                {
-                  removeViewBox: false,
-                },
-              ],
-            },
+            	plugins: [
+                    {
+        				name: 'removeViewBox',
+        				active: false
+      				},
+    			],
+  			},
           ],
         ],
     },
 });
 
 module.exports = {
+    mode: 'development',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),

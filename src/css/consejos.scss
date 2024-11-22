@@ -1,10 +1,12 @@
 
 //modificamos valor del radius de los box
 $radius-large : 20px;
-
+.consejo-group {
+    height: 500px;
+}
 .consejos-titulo-contenedor{
     position: absolute;
-    top: -50px;
+    top: -10px;
     width: 100%;
 }
 .consejos-titulo{

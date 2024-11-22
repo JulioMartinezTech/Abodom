@@ -57,7 +57,7 @@ function Sucursal(props) {
                     <div className="box has-text-centered has-text-grey">
                         <p className="has-text-primary mb-5 mt-4">
                             <b className="is-uppercase">{props.data.gerente}</b> 
-                            <p>({t("branch-offices.title")})</p>
+                            <p>{props.data.contacto}</p>
                         </p>
                         <p>
                             Tel: {props.data.telefono}
